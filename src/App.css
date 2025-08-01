@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+    --background: #fafafa;
+    --foreground: #01010b;
+    --border: #d5d5d5;
+    --sidebar-width: 240px;
+    --primary: #87ceeb;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #01010b;
+        --foreground: #fafafa;
+        --border: #292929;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
