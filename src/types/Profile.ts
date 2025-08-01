@@ -1,0 +1,18 @@
+export interface Profile {
+    id: number,
+    user_id: string,
+    avatar: string,
+    nickname: string,
+    email: string,
+    email_public: boolean,
+    job: string,
+    job_public: boolean,
+    education: string,
+    education_public: boolean,
+    nationality: string,
+    nationality_public: boolean,
+    location: string,
+    location_public: boolean,
+    company: string,
+    links: string,
+}
